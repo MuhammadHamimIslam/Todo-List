@@ -5,7 +5,7 @@ const errorTime = document.querySelector('.err-time') // error msg of time
 const addTaskBtn = document.querySelector('.add-task-btn') // task adding button 
 const taskSection = document.querySelector('.task-section') // task appending section
 
-tasks = [] // task holding array of objects 
+const tasks = [] // task holding array of objects 
 
 
 addTaskBtn.addEventListener('click', function() {
@@ -19,7 +19,7 @@ addTaskBtn.addEventListener('click', function() {
         return;
     }
     // create elements 
-    const task = document.createElement('div')
+    const task = document.createElement('article')
     const name = document.createElement('p')
     const time = document.createElement('p')
     const removeBtn = document.createElement('button')

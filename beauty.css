@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -88,6 +89,7 @@ main .add-task {
     padding: 0.3rem;
     position: relative;
     text-wrap: wrap;
+    border-radius: 0.3rem;
 }
 
 .task-section .all-task p {
